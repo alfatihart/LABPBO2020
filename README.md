@@ -17,4 +17,6 @@
  - Jika anda menambahkan *remote* pada hasil *fork*, lakukan **merge** pada _branch **master**_ anda dengan _branch **master upstream**_.
  - Untuk cara sinkronisasi hasil *fork* dengan *upstream*, silahkan baca [Configure a remote for a fork](https://help.github.com/en/articles/configuring-a-remote-for-a-fork) dan [Syncing a fork](https://help.github.com/en/articles/syncing-a-fork).
 
-> **Bila Bingung dengan Cara di atas, Bisa Mengikuti Langkah pada File PDF Terlampir!**
+
+
+### Bila Bingung dengan Cara di atas, Bisa Mengikuti Langkah pada File PDF Terlampir!
