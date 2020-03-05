@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainPokemon",
+            "request": "launch",
+            "mainClass": "MainPokemon"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Player",
+            "request": "launch",
+            "mainClass": "Player"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - runner",
+            "request": "launch",
+            "mainClass": "runner"
+        }
+    ]
+}
