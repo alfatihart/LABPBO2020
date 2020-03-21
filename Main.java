@@ -1,17 +1,20 @@
-public class Main {
-    public static void main (String[] args){
-        int defense = 15;
-        int attack = 30;
-        Player player1 = new Player ("Mino", attack, defense);
-        Player player2 = new Player ("Hilda", defense);
+import java.util.Random;
 
-        
-        //lengkapi
-        player2.setAttackPower(35);
-        
-        player1.getDamage(player2);
-        player2.getDamage(player1);
-        player1.status();
-        player2.status();
-    }
+class Main
+{
+	public static void main(String[] args) 
+	{
+		Player npad = new Player("System", "Fighter");
+		npad.healing(400.0);
+		npad.setLevel(38);
+		npad.setDamage(15.0);
+
+		Player pemain = new Player("pemain", "Fighter");
+		pemain.healing(400.0);
+		pemain.setLevel(36);
+		pemain.setDamage(12.0);
+		
+		npad.showStatus();
+		pemain.showStatus();
+	}
 }
